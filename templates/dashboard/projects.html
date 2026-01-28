@@ -96,10 +96,12 @@
                                 <a href="{{ url_for('dashboard.edit_project', project_id=project.id) }}" class="btn-premium-action" title="Refine Intelligence">
                                     <i class="fas fa-edit"></i>
                                 </a>
-                                <a href="{{ url_for('dashboard.delete_project', project_id=project.id) }}" class="btn-premium-action btn-premium-danger" 
-                                   onclick="return confirm('Archive this project intelligence?')" title="Archive">
-                                    <i class="fas fa-trash-alt"></i>
-                                </a>
+                                <form action="{{ url_for('dashboard.delete_project', project_id=project.id) }}" method="POST" style="display: inline;">
+                                    <button type="submit" class="btn-premium-action btn-premium-danger" 
+                                       onclick="return confirm('Archive this project intelligence?')" title="Archive">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </button>
+                                </form>
                             </div>
                         </td>
                     </tr>
