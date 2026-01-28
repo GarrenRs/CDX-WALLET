@@ -1,0 +1,362 @@
+﻿{
+  "name": "Codexx Wallets",
+  "users": [
+    {
+      "id": "41acf15d-f246-41af-9963-8164b1edc563",
+      "username": "Raeson",
+      "email": "Raesondark@gmail.com",
+      "password_hash": "scrypt:32768:8:1$mfhX9TFqwkbQU9dA$8a200dd876128c91b26f76511d7d342a14bce9e719783aaa9d49ab0b1093a124db2df254e785ff80d9ff50ce8a312bd91d951261b8f96dd4d43b266bfef28d9d",
+      "role": "user",
+      "is_demo": false,
+      "is_verified": true,
+      "must_change_password": false,
+      "created_at": "2026-01-17 10:37:10"
+    }
+  ],
+  "portfolios": {
+    "default": {
+      "name": "Default",
+      "title": "",
+      "description": "",
+      "about": "",
+      "photo": "",
+      "username": "default",
+      "is_verified": false
+    },
+    "Raeson": {
+      "username": "Raeson",
+      "name": "Raeson Rs",
+      "title": "Designer 3D",
+      "description": "This vision statement appears as the first point of contact for visitors.\r\n",
+      "about": " Focus on the results you deliver\r\n Describe your unique methodology\r\n Highlight transformative achievements\r\n Build trust through your professional story\r\n Be clear and direct\r\niM%ED 2026",
+      "photo": "static/assets/uploads/profile_Raeson_20260117_114049_ChatGPT_Image_Dec_6_2025_10_22_28_PM.png",
+      "skills": [
+        {
+          "name": "Photoshop",
+          "level": 97
+        },
+        {
+          "name": "React",
+          "level": 50
+        },
+        {
+          "name": "HTML",
+          "level": 77
+        },
+        {
+          "name": "CSS",
+          "level": 87
+        }
+      ],
+      "projects": [
+        {
+          "id": "b86bc449-a1e6-4a18-bbdf-e9510daf6b53",
+          "title": "Quality Mandates",
+          "description": "High-res imagery â€” High-resolution cover imagery (min 1920x1080) optimized for 16:9 aspect ratio.",
+          "short_description": "High-res imagery â€” High-resolution cover imagery (min 1920x1080) optimized for 16:9 aspect ratio.",
+          "content": "High-res imagery â€” High-resolution cover imagery (min 1920x1080) optimized for 16:9 aspect ratio.\r\n\r\nQuantitative data\r\nQuantitative data â€” Include data points documenting specific technical challenges and solutions.\r\n\r\nVerification links\r\nVerification & docs â€” Provide live verification links or architectural documentation for proof-of-work.",
+          "image": "static/assets/uploads/project_Raeson_b86bc449-a1e6-4a18-bbdf-e9510daf6b53_20260117_113903_ChatGPT_Image_Jan_13_2026_10_48_29_AM.png",
+          "demo_url": "#",
+          "github_url": "#",
+          "technologies": [
+            "React"
+          ],
+          "gallery": [],
+          "skill_related": [],
+          "project_type": "portfolio",
+          "badge": "completed",
+          "created_at": "2026-01-28 17:28:30"
+        },
+        {
+          "id": "ec0f9dd8-0fc7-4f70-806f-be8f0b1e380c",
+          "title": "Construct Showcase",
+          "description": "Initiate a new high-caliber proof-of-work intelligence record",
+          "short_description": "Initiate a new high-caliber proof-of-work intelligence record",
+          "content": "Verification & docs â€” Provide live verification links or architectural documentation for proof-of-work.",
+          "image": "static/assets/uploads/project_Raeson_ec0f9dd8-0fc7-4f70-806f-be8f0b1e380c_20260117_115435_ChatGPT_Image_Dec_6_2025_09_17_48_PM.png",
+          "demo_url": "#",
+          "github_url": "#",
+          "technologies": [
+            "Css",
+            "HTML"
+          ],
+          "gallery": [],
+          "skill_related": [
+            "REACT"
+          ],
+          "project_type": "training",
+          "badge": "training",
+          "created_at": "2026-01-28 17:28:30"
+        },
+        {
+          "id": "44ab484f-af86-44cf-b31e-3ea0f9d82eba",
+          "title": "Training Phase Active",
+          "description": "Quantitative data â€” Include data points documenting specific technical challenges and solutions.",
+          "short_description": "Quantitative data â€” Include data points documenting specific technical challenges and solutions.",
+          "content": "High-res imagery â€” High-resolution cover imagery (min 1920x1080) optimized for 16:9 aspect ratio.",
+          "image": "static/assets/uploads/project_Raeson_44ab484f-af86-44cf-b31e-3ea0f9d82eba_20260117_122949_photo_2025-12-01_18-53-08.jpg",
+          "demo_url": "#",
+          "github_url": "#",
+          "technologies": [
+            "React"
+          ],
+          "gallery": [],
+          "skill_related": [],
+          "project_type": "request",
+          "badge": "request",
+          "created_at": "2026-01-28 17:28:30",
+          "request_budget_min": 15.0,
+          "request_budget_max": 50.0,
+          "request_deadline": "2026-01-15",
+          "request_status": "open"
+        },
+        {
+          "id": "16544f5f-0f5c-43c5-9360-fafafb3f277d",
+          "title": "Welcome, Raeson",
+          "description": "Quantitative data â€” Include data points documenting specific technical challenges and solutions.",
+          "short_description": "Quantitative data â€” Include data points documenting specific technical challenges and solutions.",
+          "content": "Quantitative data â€” Include data points documenting specific technical challenges and solutions.\r\n\r\nVerification links\r\nVerification & docs â€” Provide live verification links or architectural documentation for proof-of-work.",
+          "image": "static/assets/uploads/project_Raeson_16544f5f-0f5c-43c5-9360-fafafb3f277d_20260128_173537_Capture.PNG",
+          "demo_url": "#",
+          "github_url": "#",
+          "technologies": [
+            "Css",
+            "HTML"
+          ],
+          "gallery": [],
+          "skill_related": [],
+          "project_type": "portfolio",
+          "badge": "completed",
+          "created_at": "2026-01-28 17:28:30"
+        }
+      ],
+      "clients": [
+        {
+          "id": "b9ed3f36-b68d-4287-b2bb-aac288fcf8b9",
+          "name": "iMED",
+          "email": "raesonrs@gmail.com",
+          "phone": "0549990984",
+          "company": "ZDX",
+          "project_title": "Project Title",
+          "project_description": "Enter accurate contact information\r\n Provide detailed project description\r\n Set realistic deadlines\r\n Update status as project progresses\r\n Keep notes for important details",
+          "status": "lead",
+          "price": "40",
+          "deadline": "2026-02-02",
+          "start_date": "2026-02-10",
+          "notes": "Enter accurate contact information\r\n Provide detailed project description\r\n Set realistic deadlines\r\n Update status as project progresses\r\n Keep notes for important details",
+          "created_at": "2026-01-28 17:28:30",
+          "status_updated_at": "2026-01-28 17:51:05"
+        }
+      ],
+      "messages": [
+        {
+          "id": "1adc5ddc-6c0c-40a4-9948-53a5a7be5a5e",
+          "name": "Sara",
+          "email": "Sarah@gmail.com",
+          "message": "We respect your privacy. Your information will only be used to respond to your inquiry.",
+          "read": true,
+          "category": "portfolio",
+          "sender_id": null,
+          "receiver_id": null,
+          "date": "2026-01-28 16:52:52"
+        },
+        {
+          "id": "3612f778-7c19-4150-9d76-a51bb7991dc1",
+          "name": "Raeson",
+          "email": "",
+          "message": "Slm\r\n",
+          "read": true,
+          "category": "internal",
+          "sender_id": "41acf15d-f246-41af-9963-8164b1edc563",
+          "receiver_id": "admin",
+          "date": "2026-01-28 16:54:57"
+        },
+        {
+          "id": "ed5e21ed-8999-41dc-b517-a284d6e0c3bd",
+          "name": "admin",
+          "email": "",
+          "message": "Cv",
+          "read": false,
+          "category": "internal",
+          "sender_id": "admin",
+          "receiver_id": "41acf15d-f246-41af-9963-8164b1edc563",
+          "date": "2026-01-28 16:55:31"
+        }
+      ],
+      "services": [
+        {
+          "id": "02ac7e86-bac0-4122-9dfe-add304addd54",
+          "title": "Service Guidelines",
+          "description": "Clear descriptions â€” Provide clear, detailed descriptions of what clients can expect.\r\n\r\nDeliverables\r\nSpecific deliverables â€” List concrete outputs to set clear expectations.\r\n\r\nImages\r\nHigh-quality images â€” Use representative, high-resolution images for your service.\r\n\r\nSkills\r\nLink related skills â€” Attach relevant skills to showcase your expertise.",
+          "short_description": "Clear descriptions â€” Provide clear, detailed descriptions of what clients can expect.",
+          "category": "design",
+          "pricing_type": "custom",
+          "price_min": null,
+          "price_max": null,
+          "currency": "USD",
+          "deliverables": [
+            "PNG"
+          ],
+          "duration": "24 H",
+          "skills_required": [
+            "REACT"
+          ],
+          "image": "static/assets/uploads/service_Raeson_02ac7e86-bac0-4122-9dfe-add304addd54_20260117_113955_chef-logo-template-icon-brand-identityisolated-vector-46279043.webp",
+          "gallery": [],
+          "is_active": true,
+          "is_featured": true,
+          "created_at": "2026-01-28T17:28:30.147406",
+          "updated_at": "2026-01-28T17:28:30.147406"
+        },
+        {
+          "id": "ad2708c9-d5df-41f6-8bd5-b466eecfe0eb",
+          "title": "Add New Service",
+          "description": "Clear descriptions â€” Provide clear, detailed descriptions of what clients can expect.\r\n\r\nDeliverables\r\nSpecific deliverables â€” List concrete outputs to set clear expectations.\r\n\r\nImages\r\nHigh-quality images â€” Use representative, high-resolution images for your service.\r\n\r\nSkills\r\nLink related skills â€” Attach relevant skills to showcase your expertise.",
+          "short_description": "Create Service Offering\r\nDefine your professional service to attract clients and projects",
+          "category": "mobile_dev",
+          "pricing_type": "custom",
+          "price_min": null,
+          "price_max": null,
+          "currency": "USD",
+          "deliverables": [
+            "HTML"
+          ],
+          "duration": "3 Weeks",
+          "skills_required": [
+            "React",
+            "HTML",
+            "CSS"
+          ],
+          "image": "static/assets/uploads/service_Raeson_ad2708c9-d5df-41f6-8bd5-b466eecfe0eb_20260128_174856_lqskjdfh.PNG",
+          "gallery": [],
+          "is_active": false,
+          "is_featured": true,
+          "created_at": "2026-01-28T17:28:30.147406",
+          "updated_at": "2026-01-28T17:28:30.147406"
+        }
+      ],
+      "contact": {
+        "email": "raesondark@gmail.com",
+        "phone": "0549990984",
+        "location": "Global"
+      },
+      "social": {
+        "facebook": "https://web.facebook.com/drcodexx"
+      },
+      "settings": {
+        "theme": "vibrant-green"
+      },
+      "visitors": {
+        "total": 13,
+        "today": [
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:47:07",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:47:22",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:47:37",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:48:07",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:49:09",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:49:36",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:49:59",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:53:08",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 16:57:39",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 17:01:36",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 17:03:29",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 17:05:03",
+            "date": "2026-01-28"
+          },
+          {
+            "ip": "127.0.0.1",
+            "timestamp": "2026-01-28 17:06:27",
+            "date": "2026-01-28"
+          }
+        ],
+        "unique_ips": [
+          "127.0.0.1"
+        ]
+      },
+      "notifications": {
+        "telegram": {
+          "bot_token": "8115051779:AAFy7tE7gB3rDqwo6uCD3PXpk9eNS3BkByA",
+          "chat_id": "5464520756",
+          "configured_at": "2026-01-25 21:50:58"
+        },
+        "smtp": {
+          "host": "smtp.gmail.com",
+          "port": "578",
+          "email": "raesonrs@gmail.com",
+          "password": "R_aeson124691",
+          "configured_at": "2026-01-25 21:52:06"
+        }
+      }
+    },
+    "admin": {
+      "username": "admin",
+      "name": "",
+      "title": "Web Developer & Designer",
+      "description": "Welcome to my professional portfolio.",
+      "about": "",
+      "photo": "",
+      "skills": [],
+      "projects": [],
+      "clients": [],
+      "messages": [],
+      "services": [],
+      "contact": {},
+      "social": {},
+      "settings": {
+        "theme": "clean-light"
+      },
+      "visitors": {
+        "total": 0,
+        "today": [],
+        "unique_ips": []
+      },
+      "notifications": {}
+    }
+  }
+}
