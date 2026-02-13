@@ -2,10 +2,10 @@
 Auth Routes - Authentication and authorization
 """
 
-from flask import render_template, session, redirect, url_for, request, flash
+from flask import render_template, session, redirect, url_for, request, flash, current_app
 from utils.security import get_admin_credentials, get_client_ip, log_ip_activity, log_audit_event
-from utils.data import load_data
-from werkzeug.security import check_password_hash
+from utils.data import load_data, get_or_create_workspace
+from werkzeug.security import check_password_hash, generate_password_hash
 from models import User
 from extensions import db
 from . import auth_bp
@@ -70,7 +70,6 @@ def login():
                 db_user = User.query.filter_by(username=username).first()
                 if not db_user:
                     current_app.logger.info(f"Creating DB user for {username} from JSON data")
-                    from utils.data import get_or_create_workspace
                     workspace = get_or_create_workspace(username, user.get('name', username))
                     db_user = User(
                         username=username,
@@ -124,8 +123,50 @@ def logout():
     return redirect(url_for('auth.login'))
 
 
-@auth_bp.route('/register', methods=['GET', 'POST'])
+@auth_bp.route('/dashboard/register', methods=['GET', 'POST'])
 def register():
-    """Disabled registration route"""
-    flash('Registration is currently disabled. Please contact the administrator.', 'warning')
-    return redirect(url_for('auth.login'))
+    """Register new user and sync with management dashboard"""
+    if request.method == 'POST':
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
+        
+        if not username or not email or not password:
+            flash('All fields are required.', 'error')
+            return render_template('dashboard/register.html')
+            
+        # Check if user already exists
+        if User.query.filter((User.username == username) | (User.email == email)).first():
+            flash('Username or email already exists.', 'error')
+            return render_template('dashboard/register.html')
+            
+        try:
+            # Create a professional workspace for the new user
+            workspace_name = f"{username}'s Portfolio"
+            workspace = get_or_create_workspace(username, workspace_name)
+            
+            # Create the user in the database
+            new_user = User(
+                username=username,
+                email=email,
+                password_hash=generate_password_hash(password),
+                role='user',
+                is_active=True,
+                is_verified=False,
+                is_demo=True,
+                workspace_id=workspace.id
+            )
+            
+            db.session.add(new_user)
+            db.session.commit()
+            
+            flash('Registration successful! You can now log in.', 'success')
+            log_ip_activity('user_registration', f"User: {username}")
+            return redirect(url_for('auth.login'))
+            
+        except Exception as e:
+            db.session.rollback()
+            current_app.logger.error(f"Registration error: {str(e)}")
+            flash('An error occurred during registration. Please try again.', 'error')
+            
+    return render_template('dashboard/register.html')
